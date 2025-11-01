@@ -1,15 +1,17 @@
-livekit-agents
-livekit-plugins-openai
-livekit-plugins-silero
-livekit-plugins-google
-livekit-plugins-noise-cancellation
-langchain-community
-requests
-python-dotenv
-duckduckgo-search
-fuzzywuzzy
-pyautogui
-pynput
-python-Levenshtein
-pywin32
-livekit
+livekit-agents==0.6.1
+livekit-plugins-openai==0.6.1
+livekit-plugins-silero==0.6.1
+livekit-plugins-google==0.6.1
+livekit-plugins-noise-cancellation==0.6.1
+langchain-community==0.2.12
+requests==2.31.0
+python-dotenv==1.0.1
+duckduckgo-search==5.3.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1
+pyautogui==0.9.54
+pynput==1.7.7
+# Windows only
+pywin32; sys_platform == "win32"
+livekit==0.6.1
+gunicorn==21.2.0
