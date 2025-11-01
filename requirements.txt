@@ -4,7 +4,6 @@ livekit-agents==1.0.17
 livekit-plugins-openai==1.0.17
 livekit-plugins-silero==1.0.17
 livekit-plugins-google==1.0.17
-livekit-plugins-noise-cancellation==1.0.17
 
 
 # AI / LLM tools
